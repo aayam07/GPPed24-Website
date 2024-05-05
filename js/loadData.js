@@ -11,7 +11,7 @@ async function insertSpeakers() {
         div.classList.add("item", "speaker-card");
         div.innerHTML = `
             <div class="image">
-            <img src="../images/${speaker.image}" alt="" />
+            <img src="./images/${speaker.image}" alt="" />
             </div>
             <div class="content">
                 <span class="location">
