@@ -1,6 +1,6 @@
 async function insertSpeakers() {
   console.log("inseerring");
-  fetch("../data/speakers.json")
+  fetch("./data/speakers.json")
     .then((res) => res.json())
     .then((speakers) => {
       const speakerContainer = document.querySelector(
