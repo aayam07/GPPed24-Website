@@ -106,7 +106,7 @@ const insertHeader = () => {
     </label>
     <ul class="desktop-nav-list">
       <li>
-        <a href="index.html#hero">Home</a>
+        <a href="index.html">Home</a>
       </li>
       <li>
         <a href="about.html">About</a>
@@ -141,23 +141,23 @@ const insertHeader = () => {
 <div class="mobile-list-container">
   <ul class="mobile-nav-list">
     <li>
-      <a href="/">Home</a>
+      <a href="index.html">Home</a>
     </li>
     <li>
-      <a href="/about.html">About</a>
+      <a href="about.html">About</a>
     </li>
     
     <li>
-      <a href="/register.html">register</a>
+      <a href="register.html">register</a>
     </li>
     <li>
-    <a href="/events.html">Events</a>
+    <a href="events.html">Events</a>
   </li>
     <li>
-      <a href="/faq.html">FAQs</a>
+      <a href="faq.html">FAQs</a>
     </li>
     <li>
-      <a href="/schedule.html">schedule</a>
+      <a href="schedule.html">schedule</a>
     </li>
     <li>
       <a href="gallary.html">Gallary</a>
