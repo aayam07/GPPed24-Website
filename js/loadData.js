@@ -30,7 +30,7 @@ async function insertSpeakers() {
 }
 
 async function insertOrganizingCommittee() {
-  fetch("../data/committee.json")
+  fetch("./data/committee.json")
     .then((res) => res.json())
     .then((members) => {
       const container = document.querySelector("#organizing-commitee .list");
@@ -50,7 +50,7 @@ async function insertOrganizingCommittee() {
 }
 
 async function insertOrganizingSubCommittee() {
-  fetch("../data/subcommittee.json")
+  fetch("./data/subcommittee.json")
     .then((res) => res.json())
     .then((members) => {
       const container = document.querySelector("#organizing-subcommitee .list");
