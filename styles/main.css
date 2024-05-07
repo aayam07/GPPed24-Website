@@ -34,7 +34,9 @@ body {
   --primary: black;
   --secondary: #c74747;
   --secondary: rgb(16, 121, 163);
+  --secondary: #24a55a;
   --secondary-light: rgba(16, 121, 163, 0.445);
+  --secondary-light: #24a55a63;
   --secondary-opacity: rgba(16, 121, 163, 0.137);
 
   --bg-dark: #0a0a0a;
