@@ -62,12 +62,7 @@ const openVideoOverlay = (linkId) => {
   console.log(linkId);
   document.querySelector(
     "#overlay-player .video-container"
-  ).innerHTML = `<iframe
-    width="100%"
-    height="375"
-    src="https://www.youtube.com/embed/${linkId}"
-    frameborder="0"
-    allowfullscreen></iframe>`;
+  ).innerHTML = `<iframe src="https://drive.google.com/file/d/1G1cyjR8-05cFOKlG8iQ2latgKzEkckh5/preview" width="640" height="480" allow="autoplay"></iframe>`;
 };
 
 const closeOverlayPlayer = () => {
