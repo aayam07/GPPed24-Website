@@ -258,3 +258,10 @@ section.events .image:before {
     /* transform: translateX(0); */
   }
 }
+
+@media only screen and (min-width: 900px) {
+  section#events.secondary-page .title:before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
