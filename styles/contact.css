@@ -53,3 +53,10 @@ section#contact .map {
   margin: auto;
   width: 100%; /* Set the width to 100% */
 }
+
+@media only screen and (min-width: 900px) {
+  section#contact.secondary-page .title:before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
