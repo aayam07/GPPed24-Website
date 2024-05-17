@@ -3,6 +3,36 @@ section#register {
   /* border: 1px solid red; */
 }
 
+section#register iframe.register-pdf {
+  height: 1130px;
+  width: 100%;
+}
+
+section#register iframe.register-pdf::-webkit-scrollbar {
+  display: none;
+}
+
+.register-guidelines {
+  position: relative;
+}
+
+.register-guidelines img {
+  border: 1px solid red;
+  filter: invert(1);
+}
+
+.register-guidelines:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background: var(--secondary);
+  opacity: 30%;
+}
+
 section#register .main {
   display: flex;
   flex-direction: column;

@@ -25,7 +25,7 @@ section.no-padding {
 }
 
 body {
-  --nav-height: 50px;
+  --nav-height: 80px;
 
   --fs-xxl: 1.8rem;
   --fs-l: 1.2rem;
@@ -143,12 +143,12 @@ svg {
 }
 
 .logo {
-  width: 150px;
-  padding: 30px;
+  width: 80px;
 }
 
-.logo img {
-  margin-left: -28px;
+.logo a img {
+  width: 100%;
+  height: 100%;
 }
 
 nav ul li a:hover {
@@ -223,6 +223,11 @@ button svg {
 
 header.opened .nav__burger > *:nth-of-type(2) {
   opacity: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
 }
 
 header.opened .nav__burger > *:first-child {
@@ -706,9 +711,6 @@ footer {
     width: fit-content;
   }
 }
-
-
-
 
 /* organizaing Subcommittee */
 
