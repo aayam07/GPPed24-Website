@@ -218,7 +218,7 @@ const insertFooter = () => {
       </svg>
     </div>
     <span class="footer-item__title"> Speakers </span>
-    <p>5+ Int. Speakers</p>
+    <p>3+ Int. Speakers</p>
   </div>
 </footer>
   `;
