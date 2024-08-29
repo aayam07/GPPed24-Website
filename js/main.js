@@ -35,7 +35,7 @@ const carouselPages = ["index.html", ""];
 
 if (carouselPages.includes(window.location.pathname.split("/")[1])) {
   $(".owl-carousel").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 10,
     nav: true,
     autoplay: true,

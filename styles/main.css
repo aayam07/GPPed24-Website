@@ -594,6 +594,20 @@ footer {
   line-height: 1.4;
 }
 
+#sponsors img {
+  background: rgba(255, 255, 255, 0.7);
+  margin-inline: auto;
+  border-radius: 5px;
+}
+
+#sponsors .title {
+  margin-bottom: 1.4em;
+}
+
+#sponsors .owl-stage {
+  margin-inline: auto;
+}
+
 @media only screen and (min-width: 800px) {
   .speaker-card .content {
     opacity: 0;
