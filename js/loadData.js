@@ -68,7 +68,36 @@ async function insertOrganizingSubCommittee() {
     });
 }
 
-insertSpeakers();
+async function insertSponsors() {
+  fetch("./data/sponsors.json")
+    .then((res) => res.json())
+    .then((sponsors) => {
+      const container = document.querySelector(".sponsors-container");
+      sponsors.forEach((sponsor) => {
+        const img = document.createElement("img");
+        img.src = `images/sponsors/${sponsor}`;
+        img.alt = sponsor.split(".")[0];
+        container.appendChild(img);
+      });
+    });
+}
 
+async function insertMediaPartners() {
+  fetch("./data/mediapartners.json")
+    .then((res) => res.json())
+    .then((mediaPartners) => {
+      const container = document.querySelector(".media-partners-container");
+      mediaPartners.forEach((partner) => {
+        const img = document.createElement("img");
+        img.src = `images/media/${partner}`;
+        img.alt = partner.split(".")[0];
+        container.appendChild(img);
+      });
+    });
+}
+
+insertSpeakers();
 insertOrganizingCommittee();
 insertOrganizingSubCommittee();
+insertSponsors();
+insertMediaPartners();
